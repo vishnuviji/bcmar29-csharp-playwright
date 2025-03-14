@@ -1,0 +1,4 @@
+playwright-nunit/TestResults
+playwright-nunit/bin
+playwright-nunit/obj
+.vscode
