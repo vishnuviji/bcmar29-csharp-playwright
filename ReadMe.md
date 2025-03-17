@@ -5,13 +5,15 @@ This project demonstrates how to use Playwright with NUnit for end-to-end testin
 ## Prerequisites
 
 - [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
+- [Visual Studio Code](https://code.visualstudio.com/download) Or [Visual Studio](https://visualstudio.microsoft.com/downloads/) (Optional)
+- [Git](https://git-scm.com/downloads)
 
 ## Setup
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
-    cd playwright-nunit
+    git clone https://github.com/Axone-Tech/csharp-playwright.git
+    cd csharp-playwright
     ```
 
 2. Restore the dependencies:
@@ -21,7 +23,7 @@ This project demonstrates how to use Playwright with NUnit for end-to-end testin
 
 3. Install Playwright browsers:
     ```sh
-    pwsh bin/Debug/netX/playwright.ps1 install 
+    pwsh bin/Debug/net9.0/playwright.ps1 install 
     ```
 
 ## Project Structure
